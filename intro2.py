@@ -3,7 +3,6 @@ def add_prefix(document, documents):
     new_doc = prefix + document
     return documents + (new_doc,)
 
-
 # Example usage :
 run_cases = [
     (
